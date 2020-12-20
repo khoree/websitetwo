@@ -1,0 +1,107 @@
+.head {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 10px; 
+}
+
+.head h1 {
+    padding: 40px 40px 0px 40px;
+    position: relative;
+    z-index: 2;
+}
+
+.head h2 {
+    position: relative;
+    text-align: center;
+    padding-top: 0px;
+    z-index: 2;
+}
+
+.head img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.4;
+}
+
+#name {
+    text-align: center;
+    font-size: 70px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.explain li, .explain2 li{
+    border: 1px solid orange;
+    width: 50%;
+    list-style-type: none;
+    box-sizing: border-box;
+    margin: 10px 10px 10px 0px;
+    padding: 20px ;
+    background-image: url(https://images.pexels.com/photos/62693/pexels-photo-62693.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+    font-size: 130%;
+}
+
+@media (min-width: 768px){
+    .explain {
+    display:flex;
+    padding-left: 10px;
+    }
+}
+
+.why {
+    text-align: center;
+}
+
+#signup {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+@media (min-width: 768px){
+    .explain2 {
+    display:flex;
+    padding-left: 10px;
+    }
+}
+
+#contact {
+    font-size: 30px;
+    text-align: center;
+}
+
+#contact2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+@media (min-width: 768px){
+    .forms {
+    display:flex;
+    }
+}
+
+.forms li {
+    font-size: 40px;
+    border-radius: 20px;
+    width: 50%;
+    list-style-type: none;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 20px 20px 20px 0px;
+    text-align: center;
+    background-image: url(https://images.pexels.com/photos/2756425/pexels-photo-2756425.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+
+#note {
+    text-align: center;
+}
+
+#copyright {
+    text-align: center;
+    padding-top: 50px;
+}
